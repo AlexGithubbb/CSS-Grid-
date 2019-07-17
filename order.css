@@ -1,0 +1,35 @@
+/* the basic intro */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  /* grid-auto-flow: column; */
+  /* change the row order to column */
+  grid-auto-flow: row;
+}
+
+
+/* move 2 and 8 block in the front of the rest */
+.grid-item:nth-child(2){
+  order: 1;
+}
+.grid-item:nth-child(8){
+  order: 1;
+}
+
+.grid-item{
+  order: 2;
+  color: #fff;
+  background-color: blueviolet;
+  font-size: 120%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.grid-item:nth-child(odd){
+  background-color: rgb(72, 173, 204);
+}
+
+/* the fr unit */
