@@ -1,0 +1,22 @@
+/* the basic intro */
+.grid{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+}
+
+.grid-item{
+  color: #fff;
+  background-color: blueviolet;
+  font-size: 120%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+
+.grid-item:nth-child(odd){
+  background-color: rgb(72, 173, 204);
+}
+/* the fr unit */
