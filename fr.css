@@ -1,12 +1,11 @@
 /* the fr unit intro */
-.grid{
+.grid {
   display: grid;
-  grid-template-columns:  2fr 1fr 200px;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
 
-.grid-item{
+.grid-item {
   color: #fff;
   background-color: blueviolet;
   font-size: 120%;

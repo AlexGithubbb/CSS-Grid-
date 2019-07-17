@@ -1,0 +1,19 @@
+/* the fr unit intro */
+.grid{
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: repeat(2, 1fr 2fr); */
+  grid-template-columns: 100px repeat(2, 1fr 2fr);
+  grid-gap: 10px;
+}
+
+.grid-item{
+  color: #fff;
+  background-color: blueviolet;
+  font-size: 120%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
