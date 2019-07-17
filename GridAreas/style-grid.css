@@ -13,8 +13,9 @@
   .site {
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-areas:
-      'title title title'
-      'main masthead masthead'
+			'title title title'
+			/* use . reprensents the empty area */
+			'main . masthead'
       'main sidebar footer';
   }
 }
