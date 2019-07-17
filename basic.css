@@ -1,0 +1,19 @@
+/* the basic intro */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: 200px 100px;
+  grid-auto-rows: 50px;
+  grid-gap: 10px;
+}
+
+.grid-item{
+  color: #fff;
+  background-color: blueviolet;
+  font-size: 120%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+/* the fr unit */
